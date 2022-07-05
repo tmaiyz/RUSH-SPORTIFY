@@ -1,0 +1,24 @@
+.home-prosper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dceaf5;
+    height: 630px;
+}
+.home-prosper .home-item2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1550px) {
+    .home-prosper {
+        padding: 0 100px;
+   }
+}
+@media screen and (min-width: 1550px) {
+    .home-prosper {
+        padding: 0 320px;
+   }
+}
